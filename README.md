@@ -35,16 +35,16 @@ In order to run this project you need:
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Author1**
+👤 **Mohamed H Noor**
 
 - GitHub: [@githubhandle](https://github.com/MohamedHNoor)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/mohamedhnoor/)
 
-👤 **Author2**
+👤 **Christian Ani**
 
 - GitHub: [@githubhandle](https://github.com/iamchristianani)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- Twitter: [@kriznode]((https://twitter.com/kriznode)
+- LinkedIn: [Christian Ani](https://www.linkedin.com/in/anikriz/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -79,7 +79,5 @@ Feel free to check the [issues page](https://github.com/MohamedHNoor/Awesome-Boo
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](MIT.md) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
