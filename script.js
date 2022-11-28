@@ -42,3 +42,18 @@ form.addEventListener('submit', (e) => {
   e.preventDefault();
   addBook();
 });
+
+window.addEventListener('load', () => {
+  const getJsonData = localStorage.getItem('form');
+  if (getJsonData) {
+    bookArr = JSON.parse(getJsonData);
+  }
+  bookDisplay();
+});
+
+function removeBook(index) {
+  bookArr.splice(index, 1);
+  bookDisplay();
+  const jsonData = JSON.stringify(bookArr);
+  localStorage.setItem('form', jsonData);
+}
