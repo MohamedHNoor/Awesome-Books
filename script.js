@@ -26,7 +26,6 @@ function bookDisplay() {
 
 function addBook() {
   const eachBook = {};
-  // const eachBook = new Object();
   eachBook.id = bookArr.length;
   eachBook.title = title.value;
   eachBook.author = author.value;
