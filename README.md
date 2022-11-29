@@ -46,8 +46,8 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **[Add book title and author to local storage]**
-- **[Remove book title and author to local storage]**
+- **[Make use of classes]**
+- **[Add and Remove books using class methods]**
 - **[Make use of stringify and parse to store and retrieve JS objects from local storage]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -99,7 +99,7 @@ Clone this repository to your desired folder:
 👤 **Christian Ani**
 
 - GitHub: [@githubhandle](https://github.com/iamchristianani)
-- Twitter: [@kriznode]((https://twitter.com/kriznode)
+- Twitter: [@kriznode](https://twitter.com/kriznode)
 - LinkedIn: [Christian Ani](https://www.linkedin.com/in/anikriz/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -108,7 +108,6 @@ Clone this repository to your desired folder:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Manage books collection (plain JS with classes) and add basic CSS.]**
 - [ ] **[Create a complete website with navigation.]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

@@ -17,8 +17,29 @@ main {
   justify-content: center;
 }
 
+.heading {
+  margin: 0 auto;
+}
+
 .all-books {
-  width: 100%;
+  margin-top: 2rem;
+  width: 50vw;
+  border: 1px solid #000;
+}
+
+.book {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 20px;
+}
+
+.book:nth-child(odd) {
+  background: lightgray;
+}
+
+.remove {
+  border: 2px solid #000;
 }
 
 .form {
@@ -27,4 +48,24 @@ main {
   align-items: flex-start;
   justify-content: center;
   gap: 10px;
+  margin: 0 auto;
+  width: 50%;
+  margin-top: 2rem;
+}
+
+.form h3 {
+  margin: 0 auto;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.form input {
+  border: 2px solid #000;
+  padding: 3px;
+  width: 100%;
+}
+
+.form button {
+  align-self: flex-end;
+  border: 2px solid #000;
 }
