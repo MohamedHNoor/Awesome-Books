@@ -23,7 +23,6 @@ class Book {
         <p class="title">"${bookArr[i].title}" by ${bookArr[i].author}</p>
         <button class="remove" onclick="Book.removeBook(${i})">Remove</button>
       `;
-      bookInfo.style.border = '2px solid #000';
       bookInfo.appendChild(oneBook);
       title.value = '';
       author.value = '';
