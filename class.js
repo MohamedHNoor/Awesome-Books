@@ -42,4 +42,23 @@ class Book {
     const jsonData = JSON.stringify(bookArr);
     localStorage.setItem('form', jsonData);
   }
+
+  static removeBook(index) {
+    bookArr.splice(index, 1);
+    Book.bookDisplay();
+    const jsonData = JSON.stringify(bookArr);
+    localStorage.setItem('form', jsonData);
+  }
 }
+
+form.addEventListener('submit', (e) => {
+  e.preventDefault();
+  Book.addBook();
+});
+window.addEventListener('load', () => {
+  const getJsonData = localStorage.getItem('form');
+  if (getJsonData) {
+    bookArr = JSON.parse(getJsonData);
+  }
+  Book.bookDisplay();
+});
