@@ -17,14 +17,26 @@ main {
   justify-content: center;
 }
 
-.all-books {
-  width: 100%;
+.heading {
+  margin: 0 auto;
 }
 
-.form {
+.all-books {
+  margin-top: 2rem;
+  width: 50vw;
+}
+
+.book {
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-  gap: 10px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 20px;
+}
+
+.book:nth-child(odd) {
+  background: lightgray;
+}
+
+.remove {
+  border: 2px solid #000;
 }
