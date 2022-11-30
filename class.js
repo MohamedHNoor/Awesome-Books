@@ -90,3 +90,12 @@ addBtn.addEventListener('click', () => {
   contactSection.classList.add('hidden');
   contactSection.classList.remove('active');
 });
+
+contactBtn.addEventListener('click', () => {
+  bookSection.classList.add('hidden');
+  bookSection.classList.remove('active');
+  addBookSection.classList.remove('active');
+  addBookSection.classList.add('hidden');
+  contactSection.classList.add('active');
+  contactSection.classList.remove('hidden');
+});
