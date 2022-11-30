@@ -8,28 +8,41 @@
     <title>Awesome Books</title>
   </head>
   <body>
+    <nav>
+      <div class="logo">Awesome Books</div>
+      <ul class="nav-list">
+        <li><a href="#">List</a></li>
+        <li><a href="#">Add new</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
     <main>
-      <h1 class="heading">All awesome books</h1>
-      <div class="all-books"></div>
-      <form class="form">
-        <h3 class="form--heading">Add a new book</h3>
-        <input
-          type="text"
-          id="input-title"
-          name="title"
-          placeholder="Title"
-          required
-        />
-        <input
-          type="text"
-          id="input-author"
-          name="author"
-          placeholder="Author"
-          required
-        />
-        <button class="add">Add</button>
-      </form>
+      <div class="main-container">
+        <h1 class="heading">All awesome books</h1>
+        <div class="all-books"></div>
+        <form class="form">
+          <h3 class="form--heading">Add a new book</h3>
+          <input
+            type="text"
+            id="input-title"
+            name="title"
+            placeholder="Title"
+            required
+          />
+          <input
+            type="text"
+            id="input-author"
+            name="author"
+            placeholder="Author"
+            required
+          />
+          <button class="add">Add</button>
+        </form>
+      </div>      
     </main>
+    <footer>
+      <p>&copy; Mohammed & Christian</p>
+    </footer>
     <script src="class.js"></script>
   </body>
 </html>
