@@ -69,6 +69,7 @@ main {
 
 .heading {
   margin: 0 auto;
+  text-align: center;
 }
 
 .all-books {
@@ -99,7 +100,7 @@ main {
   justify-content: center;
   gap: 10px;
   margin: 0 auto;
-  width: 25%;
+  width: 100%;
   margin-top: 2rem;
 }
 
@@ -128,4 +129,8 @@ footer {
   align-items: center;
   padding: 0 30px;
   margin-top: auto;
+}
+
+.add-book-form {
+  width: 50%;
 }
