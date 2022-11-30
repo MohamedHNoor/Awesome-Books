@@ -11,6 +11,9 @@ const contactBtn = document.querySelector('.contact-button');
 const bookSection = document.querySelector('.books-list');
 const addBookSection = document.querySelector('.add-book-form');
 const contactSection = document.querySelector('.contact-info');
+const listAnchor = document.querySelector('.list-anchor');
+const addAnchor = document.querySelector('.add-anchor');
+const contactAnchor = document.querySelector('.contact-anchor');
 
 let bookArr = [];
 
@@ -80,6 +83,10 @@ listBtn.addEventListener('click', () => {
   addBookSection.classList.remove('active');
   contactSection.classList.add('hidden');
   contactSection.classList.remove('active');
+
+  listAnchor.classList.add('list-active');
+  addAnchor.classList.remove('list-active');
+  contactAnchor.classList.remove('list-active');
 });
 
 addBtn.addEventListener('click', () => {
@@ -89,6 +96,10 @@ addBtn.addEventListener('click', () => {
   addBookSection.classList.remove('hidden');
   contactSection.classList.add('hidden');
   contactSection.classList.remove('active');
+
+  listAnchor.classList.remove('list-active');
+  addAnchor.classList.add('list-active');
+  contactAnchor.classList.remove('list-active');
 });
 
 contactBtn.addEventListener('click', () => {
@@ -98,4 +109,8 @@ contactBtn.addEventListener('click', () => {
   addBookSection.classList.add('hidden');
   contactSection.classList.add('active');
   contactSection.classList.remove('hidden');
+
+  listAnchor.classList.remove('list-active');
+  addAnchor.classList.remove('list-active');
+  contactAnchor.classList.add('list-active');
 });

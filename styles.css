@@ -4,7 +4,6 @@
 
 a {
   text-decoration: none;
-  color: #000;
 }
 
 body {
@@ -173,4 +172,8 @@ footer {
 
 .active {
   display: block;
+}
+
+.list-active {
+  color: blue;
 }
