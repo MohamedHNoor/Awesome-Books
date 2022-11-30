@@ -2,12 +2,52 @@
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+  color: #000;
+}
+
 body {
+  padding: 0;
+  margin: 0;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
+}
+
+nav {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 30px;
+  background-color: aliceblue;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  column-gap: 40px;
+}
+
+.logo {
+  display: flex;
   align-items: center;
-  justify-content: center;
-  margin-top: 10rem;
+}
+
+.nav-list li {
+  position: relative;
+}
+
+.nav-list li:not(:last-child)::after {
+  content: "";
+  border: 1px solid #000;
+  border-width: 1px 1px 0 0;
+  position: absolute;
+  right: -25px;
+  top: 0;
+  height: 100%;
 }
 
 main {
@@ -15,6 +55,16 @@ main {
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
+  padding-bottom: 50px;
+}
+
+.main-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10rem;
 }
 
 .heading {
@@ -49,7 +99,7 @@ main {
   justify-content: center;
   gap: 10px;
   margin: 0 auto;
-  width: 50%;
+  width: 25%;
   margin-top: 2rem;
 }
 
@@ -68,4 +118,14 @@ main {
 .form button {
   align-self: flex-end;
   border: 2px solid #000;
+}
+
+footer {
+  width: 100%;
+  height: 50px;
+  background-color: aliceblue;
+  display: flex;
+  align-items: center;
+  padding: 0 30px;
+  margin-top: auto;
 }
