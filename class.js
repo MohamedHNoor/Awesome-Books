@@ -4,6 +4,7 @@ const form = document.querySelector('form');
 const bookInfo = document.querySelector('.all-books');
 const title = document.querySelector('#input-title');
 const author = document.querySelector('#input-author');
+const dateEl = document.querySelector('.date');
 
 let bookArr = [];
 
@@ -61,3 +62,7 @@ window.addEventListener('load', () => {
   }
   Book.bookDisplay();
 });
+
+// SPA Navigation
+const date = new Date();
+dateEl.innerHTML = date;
