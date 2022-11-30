@@ -8,28 +8,58 @@
     <title>Awesome Books</title>
   </head>
   <body>
+    <nav>
+      <div class="logo">Awesome Books</div>
+      <ul class="nav-list">
+        <li class="list-button"><a class="list-anchor list-active" href="#">List</a></li>
+        <li class="add-button"><a class="add-anchor" href="#">Add new</a></li>
+        <li class="contact-button"><a class="contact-anchor" href="#">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="date"></div>
     <main>
-      <h1 class="heading">All awesome books</h1>
-      <div class="all-books"></div>
-      <form class="form">
-        <h3 class="form--heading">Add a new book</h3>
-        <input
-          type="text"
-          id="input-title"
-          name="title"
-          placeholder="Title"
-          required
-        />
-        <input
-          type="text"
-          id="input-author"
-          name="author"
-          placeholder="Author"
-          required
-        />
-        <button class="add">Add</button>
-      </form>
+      <div class="main-container">
+        <section class="books-list active">
+          <h1 class="heading">All awesome books</h1>
+          <div class="all-books"></div>
+        </section>
+        <section class="add-book-form hidden">
+          <form class="form">
+            <h2 class="form--heading">Add a new book</h2>
+            <input
+              type="text"
+              id="input-title"
+              name="title"
+              placeholder="Title"
+              required
+            />
+            <input
+              type="text"
+              id="input-author"
+              name="author"
+              placeholder="Author"
+              required
+            />
+            <button class="add">Add</button>
+          </form>
+        </section>
+        <section class="contact-info hidden">
+          <h3 class="contact--heading">Contact Information</h3>
+          <div class="contact--details">
+            <p>Do you have any questions or you just want to say "Hello"?</p>
+            <p>You can reach out to us!</p>
+            <ul>
+              <li>Our email: <email>mail@mail.com</email></li>
+              <li>Our phone number: 0043586534422</li>
+              <li>Our address: Streetname 2022, 84503 City, Country</li>
+            </ul>
+          </div>
+        </section>
+      </div>
     </main>
+    <footer>
+      <p>&copy; Mohammed & Christian</p>
+    </footer>
     <script src="class.js"></script>
   </body>
 </html>
