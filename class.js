@@ -73,8 +73,10 @@ window.addEventListener('load', () => {
 });
 
 // SPA Navigation
-const date = new Date();
-dateEl.innerHTML = date;
+window.setInterval(() => {
+  const date = new Date();
+  dateEl.innerHTML = date;
+}, 1000);
 
 listBtn.addEventListener('click', () => {
   bookSection.classList.add('active');
